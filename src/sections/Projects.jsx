@@ -59,32 +59,36 @@ const Projects = () => {
 
           {/*  Tech Logo + Link - container*/}
           <div className="flex flex-wrap items-center justify-between gap-y-4 w-full">
-  {/* Tech logos container */}
-  <div className="flex flex-wrap items-center gap-3 max-w-full overflow-hidden">
-    {currentProject.tags.map((tag, index) => (
-      <div key={index} className="tech-logo">
-        <img src={tag.path} alt={tag.name} className="w-6 h-6 object-contain" />
-      </div>
-    ))}
-  </div>
+            {/* Tech logos container */}
+            <div className="flex flex-wrap items-center gap-3 max-w-full overflow-hidden">
+              {currentProject.tags.map((tag, index) => (
+                <div key={index} className="tech-logo">
+                  <img
+                    src={tag.path}
+                    alt={tag.name}
+                    className="w-6 h-6 object-contain"
+                  />
+                </div>
+              ))}
+            </div>
 
-  {/* View Project button */}
-  <div className="ml-auto">
-    <a
-      className="flex items-center gap-2 text-white-600 whitespace-nowrap"
-      href={currentProject.href}
-      target="_blank"
-      rel="noreferrer"
-    >
-      <p>View Project</p>
-      <img
-        src="assets/proj-link-arrow.png"
-        alt="arrow-up"
-        className="w-5 h-5 invert object-contain brightness-0"
-      />
-    </a>
-  </div>
-</div>
+            {/* View Project button */}
+            <div className="ml-auto">
+              <a
+                className="flex items-center gap-2 text-white-600 whitespace-nowrap"
+                href={currentProject.href}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p>View Project</p>
+                <img
+                  src="assets/proj-link-arrow.png"
+                  alt="arrow-up"
+                  className="w-5 h-5 invert object-contain brightness-0"
+                />
+              </a>
+            </div>
+          </div>
 
           {/* Navigable Arrows Buttons  */}
           <div className="flex justify-between items-center mt-7">
@@ -121,7 +125,7 @@ const Projects = () => {
               {/* Suspense is used to show something while the model is loading */}
               <Suspense fallback={<CanvasLoader />}>
                 <group scale={2} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
-                  <DemoComputer texture={currentProject.texture}/>
+                  <DemoComputer texture={currentProject.texture} />
                 </group>
               </Suspense>
             </Center>

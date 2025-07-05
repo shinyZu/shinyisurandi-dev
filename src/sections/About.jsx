@@ -173,12 +173,19 @@ const About = () => {
                 Based in Galle, Sri Lanka, I’m open to remote opportunities
                 worldwide and highly adaptable to cross-time-zone collaboration.
               </p>
-              <Button
-                name="Contact Me"
-                btnType="contactme"
-                isBeam
-                containerClass="w-full mt-10"
-              />
+              <a
+                href="https://shiny-isurandi-cv.tiiny.site/"
+                className="w-fit"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  name="Hire Me? - View Resume"
+                  btnType="cv"
+                  isBeam
+                  containerClass="w-full mt-10"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -242,7 +249,7 @@ const About = () => {
                   src={hasCopied ? "assets/tick.svg" : "assets/copy.svg"}
                   alt="copy"
                 />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white hover:text-white-700 ">
                   shinysirichandra@gmail.com
                 </p>
               </div>
