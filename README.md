@@ -38,10 +38,10 @@ Welcome to my 3D animated developer portfolio! This project showcases my skills,
 ## 🖼️ Screenshots
 
 
-<img src = "./publicassets/screenshots/1.png" alt = "sample"> <br><br>
-<img src = "./publicassets/screenshots/2.png" alt = "sample"> <br><br>
-<img src = "./publicassets/screenshots/3.png" alt = "sample"> <br><br>
-<img src = "./publicassets/screenshots/4.png" alt = "sample"> <br><br>
-<img src = "./publicassets/screenshots/5.png" alt = "sample"> <br><br>
-<img src = "./publicassets/screenshots/6.png" alt = "sample"> <br><br>
-<img src = "./publicassets/screenshots/7.png" alt = "sample"> <br><br>
+<img src = "./public/assets/screenshots/1.png" alt = "sample"> <br><br>
+<img src = "./public/assets/screenshots/2.png" alt = "sample"> <br><br>
+<img src = "./public/assets/screenshots/3.png" alt = "sample"> <br><br>
+<img src = "./public/assets/screenshots/4.png" alt = "sample"> <br><br>
+<img src = "./public/assets/screenshots/5.png" alt = "sample"> <br><br>
+<img src = "./public/assets/screenshots/6.png" alt = "sample"> <br><br>
+<img src = "./public/assets/screenshots/7.png" alt = "sample"> <br><br>
