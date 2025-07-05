@@ -104,4 +104,4 @@ const Experience = () => {
 
 export default Experience;
 
-// https://models.readyplayer.me/686686576a4c7e0949f5b6c8.glb
+// https:/models.readyplayer.me/686686576a4c7e0949f5b6c8.glb

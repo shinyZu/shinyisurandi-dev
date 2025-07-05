@@ -10,7 +10,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 const ComputerRoom = (props) => {
-  const { nodes, materials } = useGLTF('/models/sci-fi_computer_room.glb')
+  const { nodes, materials } = useGLTF('models/sci-fi_computer_room.glb')
   return (
     <group {...props} dispose={null}>
       <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]} scale={0.987}>
@@ -103,6 +103,6 @@ const ComputerRoom = (props) => {
   )
 }
 
-useGLTF.preload('/models/sci-fi_computer_room.glb')
+useGLTF.preload('models/sci-fi_computer_room.glb')
 
 export default ComputerRoom

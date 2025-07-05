@@ -3,7 +3,7 @@ import { useGLTF, useAnimations } from '@react-three/drei'
 
 const BusinessWomen = (props) => {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/models/human/test/girl3.glb')
+  const { nodes, materials, animations } = useGLTF('models/human/test/girl3.glb')
 //   const { actions } = useAnimations(animations, group)
 
 //   useEffect(() => {
@@ -82,6 +82,6 @@ const BusinessWomen = (props) => {
   )
 }
 
-useGLTF.preload('/models/human/test/girl3.glb')
+useGLTF.preload('models/human/test/girl3.glb')
 
 export default BusinessWomen;

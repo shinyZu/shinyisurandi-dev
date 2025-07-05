@@ -18,7 +18,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
-              src="/assets/linkedin.png"
+              src="assets/linkedin.png"
               alt="linkedin"
               //   className="w-1/2 h-1/2"
               className="w-6 h-6 invert object-contain"
@@ -35,7 +35,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
-              src="/assets/github.svg"
+              src="assets/github.svg"
               alt="github"
               //   className="w-1/2 h-1/2"
               className="w-6 h-6 object-contain"
@@ -52,7 +52,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             <img
-              src="/assets/whatsapp.png"
+              src="assets/whatsapp.png"
               alt="whatsapp"
               className="w-6 h-6 invert object-contain"
             />

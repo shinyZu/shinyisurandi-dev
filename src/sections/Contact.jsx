@@ -53,7 +53,7 @@ const Contact = () => {
       <h3 className="head-text">Contact Me</h3>
       <div className="relative min-h-screen flex flex-col items-center justify-center">
         <img
-          src="/assets/terminal.png"
+          src="assets/terminal.png"
           alt="terminal-backgound"
           className="absolute inset-0 min-h-screen"
         />
@@ -116,7 +116,7 @@ const Contact = () => {
             <button className="field-btn" type="submit" disabled={loading}>
               {loading ? "Sending..." : "Send Message"}
               <img
-                src="/assets/send2.png"
+                src="assets/send2.png"
                 alt="arrow-up"
                 className="field-btn_arrow"
               />

@@ -76,8 +76,8 @@ const Projects = () => {
             >
               <p>View Project</p>
               <img
-                // src="/assets/arrow-up.png"
-                src="/assets/proj-link-arrow.png"
+                // src="assets/arrow-up.png"
+                src="assets/proj-link-arrow.png"
                 alt="arrow-up"
                 // className="w-5 h-5"
                 className="w-5 h-5 invert object-contain brightness-0"
@@ -92,7 +92,7 @@ const Projects = () => {
               onClick={() => handleNavigation("previous")}
             >
               <img
-                src="/assets/left-arrow.png"
+                src="assets/left-arrow.png"
                 alt="left-arrow"
                 className="src"
               />
@@ -102,7 +102,7 @@ const Projects = () => {
               onClick={() => handleNavigation("next")}
             >
               <img
-                src="/assets/right-arrow.png"
+                src="assets/right-arrow.png"
                 alt="right-arrow"
                 className="src"
               />

@@ -9,11 +9,11 @@ import gsap from "gsap";
 
 const DemoComputer = (props) => {
   const refComputerGroup = useRef();
-  const { nodes, materials, animations } = useGLTF("/models/computer.glb");
+  const { nodes, materials, animations } = useGLTF("models/computer.glb");
 
   // adding video texture to te computer screen
   const screenTexture = useVideoTexture(
-    props.texture ? props.texture : "/textures/project/project1.mp4"
+    props.texture ? props.texture : "textures/project/project1.mp4"
   );
 
   //   to flip he upside down videos
@@ -1022,5 +1022,5 @@ const DemoComputer = (props) => {
   );
 };
 
-useGLTF.preload("/models/computer.glb");
+useGLTF.preload("models/computer.glb");
 export default DemoComputer;

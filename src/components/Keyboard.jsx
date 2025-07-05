@@ -4,7 +4,7 @@ import { useGLTF } from "@react-three/drei";
 
 const Keyboard = (props) => {
   const group = useRef();
-  const { nodes, materials } = useGLTF("/models/keyboard.glb");
+  const { nodes, materials } = useGLTF("models/keyboard.glb");
 
   // Create a smooth tilting animation along the X-axis
   useFrame(({ clock }) => {
@@ -53,6 +53,6 @@ const Keyboard = (props) => {
   );
 };
 
-useGLTF.preload("/models/keyboard.glb");
+useGLTF.preload("models/keyboard.glb");
 
 export default Keyboard;

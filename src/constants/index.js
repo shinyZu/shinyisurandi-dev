@@ -89,25 +89,25 @@ export const myProjects = [
       "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
     href: "https://github.com/shinyZu/ARfolio",
     // texture: 'https://drive.google.com/file/d/1MwVg9wXSHqgOFq7cVhM5M97C4Mw7v4bG/view',
-    texture: "/textures/project/arfolio.mp4",
-    // logo: '/assets/project-logo1.png',
-    logo: "/assets/projects/arfolio-logo2.png",
+    texture: "textures/project/arfolio.mp4",
+    // logo: 'assets/project-logo1.png',
+    logo: "assets/projects/arfolio-logo2.png",
     logoStyle: {
       backgroundColor: "#448979",
       border: "0.2px solid #448979",
       boxShadow: "0px 0px 60px 0px #5b8d81",
     },
-    spotlight: "/assets/spotlight1.png",
+    spotlight: "assets/spotlight1.png",
     tags: [
       {
         id: 1,
         name: "A-Frame",
-        path: "/assets/tech/aframe.jpeg",
+        path: "assets/tech/aframe.jpeg",
       },
       {
         id: 2,
         name: "React.js",
-        path: "/assets/tech/react.svg",
+        path: "assets/tech/react.svg",
       },
       {
         id: 3,
@@ -117,22 +117,22 @@ export const myProjects = [
       {
         id: 4,
         name: "NodeJS",
-        path: "/assets/tech/nodejs2.png",
+        path: "assets/tech/nodejs2.png",
       },
       {
         id: 5,
         name: "ExpressJS",
-        path: "/assets/tech/expressjs.png",
+        path: "assets/tech/expressjs.png",
       },
       {
         id: 6,
         name: "AWS",
-        path: "/assets/tech/aws3.png",
+        path: "assets/tech/aws3.png",
       },
       {
         id: 7,
         name: "Docker",
-        path: "/assets/tech/docker.png",
+        path: "assets/tech/docker.png",
       },
     ],
   },
@@ -145,19 +145,19 @@ export const myProjects = [
     subdesc:
       "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
     href: "https://github.com/shinyZu/SchoolMart",
-    texture: "/textures/project/schoolmart.mp4",
-    logo: "/assets/projects/schoolmart-logo2.png",
+    texture: "textures/project/schoolmart.mp4",
+    logo: "assets/projects/schoolmart-logo2.png",
     logoStyle: {
       backgroundColor: "#424e8b",
       border: "0.2px solid #424e8b",
       boxShadow: "0px 0px 60px 0px #76acc5",
     },
-    spotlight: "/assets/spotlight2.png",
+    spotlight: "assets/spotlight2.png",
     tags: [
       {
         id: 1,
         name: "React.js",
-        path: "/assets/tech/react.svg",
+        path: "assets/tech/react.svg",
       },
       {
         id: 2,
@@ -167,17 +167,17 @@ export const myProjects = [
       {
         id: 3,
         name: "NodeJS",
-        path: "/assets/tech/nodejs2.png",
+        path: "assets/tech/nodejs2.png",
       },
       {
         id: 4,
         name: "ExpressJS",
-        path: "/assets/tech/expressjs.png",
+        path: "assets/tech/expressjs.png",
       },
       {
         id: 5,
         name: "Google Drive API",
-        path: "/assets/tech/googledrive.png",
+        path: "assets/tech/googledrive.png",
       },
     ],
   },
@@ -187,8 +187,8 @@ export const myProjects = [
     subdesc:
       "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
     href: "https://github.com/shinyZu/AZ_News",
-    texture: "/textures/project/aznews.mp4",
-    logo: "/assets/projects/aznews-logo2.png",
+    texture: "textures/project/aznews.mp4",
+    logo: "assets/projects/aznews-logo2.png",
     // logoStyle: {
     //   backgroundColor: '#60f5a1',
     //   background:
@@ -201,12 +201,12 @@ export const myProjects = [
       border: "0.2px solid #bf9a9a",
       boxShadow: "0px 0px 60px 0px #bf9a9a",
     },
-    spotlight: "/assets/spotlight3.png",
+    spotlight: "assets/spotlight3.png",
     tags: [
       {
         id: 1,
         name: "React.js",
-        path: "/assets/tech/react.svg",
+        path: "assets/tech/react.svg",
       },
       {
         id: 2,
@@ -216,12 +216,12 @@ export const myProjects = [
       {
         id: 3,
         name: "NodeJS",
-        path: "/assets/tech/nodejs2.png",
+        path: "assets/tech/nodejs2.png",
       },
       {
         id: 4,
         name: "ExpressJS",
-        path: "/assets/tech/expressjs.png",
+        path: "assets/tech/expressjs.png",
       },
     ],
   },
@@ -233,19 +233,19 @@ export const myProjects = [
     subdesc:
       "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
     href: "https://github.com/shinyZu/Movie-Recommendation-System",
-    texture: "/textures/project/moviehive.mp4",
-    logo: "/assets/projects/moviehive-logo2.png",
+    texture: "textures/project/moviehive.mp4",
+    logo: "assets/projects/moviehive-logo2.png",
     logoStyle: {
       backgroundColor: "#8481b5",
       border: "0.2px solid #8481b5",
       boxShadow: "0px 0px 60px 0px #8481b5",
     },
-    spotlight: "/assets/spotlight4.png",
+    spotlight: "assets/spotlight4.png",
     tags: [
       {
         id: 1,
         name: "HTML5",
-        path: "/assets/tech/html5.png",
+        path: "assets/tech/html5.png",
       },
       {
         id: 2,
@@ -255,22 +255,22 @@ export const myProjects = [
       {
         id: 3,
         name: "JavaScript",
-        path: "/assets/tech/javascript.png",
+        path: "assets/tech/javascript.png",
       },
       {
         id: 4,
         name: "Python",
-        path: "/assets/tech/python.png",
+        path: "assets/tech/python.png",
       },
       {
         id: 5,
         name: "Flask",
-        path: "/assets/tech/flask3.png",
+        path: "assets/tech/flask3.png",
       },
       {
         id: 6,
         name: "AWS",
-        path: "/assets/tech/aws3.png",
+        path: "assets/tech/aws3.png",
       },
     ],
   },
@@ -282,19 +282,19 @@ export const myProjects = [
     subdesc:
       "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
     href: "https://github.com/shinyZu/Car_Rental_System",
-    texture: "/textures/project/carrental.mp4",
-    logo: "/assets/projects/carrental-logo.png",
+    texture: "textures/project/carrental.mp4",
+    logo: "assets/projects/carrental-logo.png",
     logoStyle: {
       backgroundColor: "#d7cb77",
       border: "0.2px solid #d7cb77",
       boxShadow: "0px 0px 60px 0px #c8d38a",
     },
-    spotlight: "/assets/spotlight5.png",
+    spotlight: "assets/spotlight5.png",
     tags: [
       {
         id: 1,
         name: "React.js",
-        path: "/assets/tech/react.svg",
+        path: "assets/tech/react.svg",
       },
       {
         id: 2,
@@ -304,12 +304,12 @@ export const myProjects = [
       {
         id: 3,
         name: "Spring Web MVC",
-        path: "/assets/tech/spring.png",
+        path: "assets/tech/spring.png",
       },
       {
         id: 4,
         name: "MySQL",
-        path: "/assets/tech/mysql2.png",
+        path: "assets/tech/mysql2.png",
       },
     ],
   },
@@ -321,14 +321,14 @@ export const myProjects = [
     subdesc:
       "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
     href: "https://github.com/shinyZu/SpringBoot_POS",
-    texture: "/textures/project/pos.mp4",
-    logo: "/assets/projects/pos-logo.png",
+    texture: "textures/project/pos.mp4",
+    logo: "assets/projects/pos-logo.png",
     logoStyle: {
       backgroundColor: "#81a529",
       border: "0.2px solid #81a529",
       boxShadow: "0px 0px 60px 0px #dbe98d",
     },
-    spotlight: "/assets/spotlight5.png",
+    spotlight: "assets/spotlight5.png",
     tags: [
       {
         id: 1,
@@ -338,12 +338,12 @@ export const myProjects = [
       {
         id: 4,
         name: "MySQL",
-        path: "/assets/tech/mysql2.png",
+        path: "assets/tech/mysql2.png",
       },
       {
         id: 1,
         name: "HTML5",
-        path: "/assets/tech/html5.png",
+        path: "assets/tech/html5.png",
       },
       {
         id: 2,
@@ -353,12 +353,12 @@ export const myProjects = [
       {
         id: 3,
         name: "JavaScript",
-        path: "/assets/tech/javascript.png",
+        path: "assets/tech/javascript.png",
       },
       {
         id: 3,
         name: "Bootstrap",
-        path: "/assets/tech/bootstrap.png",
+        path: "assets/tech/bootstrap.png",
       },
     ],
   },
@@ -411,7 +411,7 @@ export const workExperiences = [
     container orchestration and contributed to a microservices architecture. 
     Collaborated with cross-functional teams to enhance functionality and participated in recruitment 
     processes and mentoring activities.`,
-    icon: "/assets/experience/loonslab-logo.jpg",
+    icon: "assets/experience/loonslab-logo.jpg",
     animation: "slowtalking",
   },
   {
@@ -421,7 +421,7 @@ export const workExperiences = [
     href: "https://www.linkedin.com/company/ceyentra/",
     duration: "May/2023 - Jun/2023",
     desc: `Implemented key APIs, conducted server builds and API testing, and maintained technical documentation for internal systems.`,
-    icon: "/assets/experience/ceyentra-logo.jpeg",
+    icon: "assets/experience/ceyentra-logo.jpeg",
     animation: "clapping",
   },
   {
@@ -432,7 +432,7 @@ export const workExperiences = [
     duration: "Nov/2022 - May/2023",
     desc: `Gained hands-on experience in Java/Spring Boot development, integrated cloud services (Azure, AWS), 
     created BI dashboards using Amazon QuickSight, and handled API development and testing.`,
-    icon: "/assets/experience/ceyentra-logo.jpeg",
+    icon: "assets/experience/ceyentra-logo.jpeg",
     animation: "salute",
   },
 ];
@@ -446,7 +446,7 @@ export const educationList = [
     address: "United Kingdom",
     duration: "2023 - 2024",
     desc: ``,
-    icon: "/assets/education/uob-logo.png",
+    icon: "assets/education/uob-logo.png",
     animation: "femalevictory",
   },
   {
@@ -457,7 +457,7 @@ export const educationList = [
     address: "Panadura, Sri Lanka",
     duration: "2021 - 2023",
     desc: ``,
-    icon: "/assets/education/ijse-logo.jpeg",
+    icon: "assets/education/ijse-logo.jpeg",
     animation: "clapping",
   },
   {
@@ -468,7 +468,7 @@ export const educationList = [
     address: "United Kingdom",
     duration: "2020 - 2021",
     desc: ``,
-    icon: "/assets/education/uow-logo.png",
+    icon: "assets/education/uow-logo.png",
     animation: "idleWithTablet",
   },
   {
@@ -479,7 +479,7 @@ export const educationList = [
     address: "Galle, Sri Lanka",
     duration: "2005 - 2018",
     desc: ``,
-    icon: "/assets/education/scg-logo.png",
+    icon: "assets/education/scg-logo.png",
     animation: "salute",
   },
 ];

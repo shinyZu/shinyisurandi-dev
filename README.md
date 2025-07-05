@@ -4,7 +4,7 @@ Welcome to my 3D animated developer portfolio! This project showcases my skills,
 
 ## 🚀 Live Demo
 
-🔗 [View Live Website](https://shinyzu.github.io/shinyisurandi-dev/)  <br>
+🔗 [View Live Website](https://shinyZu.github.io/shinyisurandi-dev/)  <br>
 📹 [Watch Demo Video](https://drive.google.com/file/d/1KtisI3UgYpq6__eHj6dQg-Co0YB_ndiQ/view?usp=sharing)
 
 ---
@@ -38,10 +38,10 @@ Welcome to my 3D animated developer portfolio! This project showcases my skills,
 ## 🖼️ Screenshots
 
 
-<img src = "./public/assets/screenshots/1.png" alt = "sample"> <br><br>
-<img src = "./public/assets/screenshots/2.png" alt = "sample"> <br><br>
-<img src = "./public/assets/screenshots/3.png" alt = "sample"> <br><br>
-<img src = "./public/assets/screenshots/4.png" alt = "sample"> <br><br>
-<img src = "./public/assets/screenshots/5.png" alt = "sample"> <br><br>
-<img src = "./public/assets/screenshots/6.png" alt = "sample"> <br><br>
-<img src = "./public/assets/screenshots/7.png" alt = "sample"> <br><br>
+<img src = "./publicassets/screenshots/1.png" alt = "sample"> <br><br>
+<img src = "./publicassets/screenshots/2.png" alt = "sample"> <br><br>
+<img src = "./publicassets/screenshots/3.png" alt = "sample"> <br><br>
+<img src = "./publicassets/screenshots/4.png" alt = "sample"> <br><br>
+<img src = "./publicassets/screenshots/5.png" alt = "sample"> <br><br>
+<img src = "./publicassets/screenshots/6.png" alt = "sample"> <br><br>
+<img src = "./publicassets/screenshots/7.png" alt = "sample"> <br><br>
