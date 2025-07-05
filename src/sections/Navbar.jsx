@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { navLinks } from "../constants";
 
-const NavItems = () => {
+const NavItems = ({ onItemClick }) => {
   return (
     <ul className="nav-ul">
       {navLinks.map(({ id, name, href }) => (
         <li key={id} className="nav-li">
-          {name.includes("Resume") ? (
+          {/* {name.includes("Resume") ? (
             <a
               href={href}
               target="_blank"
@@ -19,8 +19,19 @@ const NavItems = () => {
             <a href={href} className="nav-li_a">
               {name}
             </a>
-          )}
+          )} */}
           {/* <a href={href} className="nav-li_a">{name}</a> */}
+          <a
+            href={href}
+            target={name.includes("Resume") ? "_blank" : "_self"}
+            rel="noreferrer"
+            className="nav-li_a"
+            onClick={() => {
+              if (onItemClick) onItemClick();
+            }}
+          >
+            {name}
+          </a>
         </li>
       ))}
     </ul>
@@ -31,6 +42,7 @@ const Navabr = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen((prevIsOpen) => !prevIsOpen);
+  const handleItemClick = () => setIsOpen(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/90">
@@ -64,7 +76,7 @@ const Navabr = () => {
       {/* navbar for mobile apps */}
       <div className={`nav-sidebar ${isOpen ? "max-h-screen" : "max-h-0"}`}>
         <nav className="p-5">
-          <NavItems />
+          <NavItems onItemClick={handleItemClick} />
         </nav>
       </div>
     </header>

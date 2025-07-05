@@ -58,32 +58,33 @@ const Projects = () => {
           </div>
 
           {/*  Tech Logo + Link - container*/}
-          <div className="flex items-center justify-between flex-wrap gap-5">
-            {/* Tech logos container */}
-            <div className="flex items-center gap-3">
-              {currentProject.tags.map((tag, index) => (
-                <div key={index} className="tech-logo">
-                  <img src={tag.path} alt={tag.name} />
-                </div>
-              ))}
-            </div>
-            {/* Link to Project */}
-            <a
-              className="flex items-center gap-2 cursor-pointer text-white-600 z-10"
-              href={currentProject.href}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <p>View Project</p>
-              <img
-                // src="assets/arrow-up.png"
-                src="assets/proj-link-arrow.png"
-                alt="arrow-up"
-                // className="w-5 h-5"
-                className="w-5 h-5 invert object-contain brightness-0"
-              />
-            </a>
-          </div>
+          <div className="flex flex-wrap items-center justify-between gap-y-4 w-full">
+  {/* Tech logos container */}
+  <div className="flex flex-wrap items-center gap-3 max-w-full overflow-hidden">
+    {currentProject.tags.map((tag, index) => (
+      <div key={index} className="tech-logo">
+        <img src={tag.path} alt={tag.name} className="w-6 h-6 object-contain" />
+      </div>
+    ))}
+  </div>
+
+  {/* View Project button */}
+  <div className="ml-auto">
+    <a
+      className="flex items-center gap-2 text-white-600 whitespace-nowrap"
+      href={currentProject.href}
+      target="_blank"
+      rel="noreferrer"
+    >
+      <p>View Project</p>
+      <img
+        src="assets/proj-link-arrow.png"
+        alt="arrow-up"
+        className="w-5 h-5 invert object-contain brightness-0"
+      />
+    </a>
+  </div>
+</div>
 
           {/* Navigable Arrows Buttons  */}
           <div className="flex justify-between items-center mt-7">
