@@ -462,7 +462,7 @@ export const educationList = [
   },
   {
     id: 3,
-    title: "BSc (Hons) in Business Information System",
+    title: "BSc (Hons) in Business Information Systems",
     awards: "",
     institute: "IIT affliated with University of Westminster",
     address: "United Kingdom",
