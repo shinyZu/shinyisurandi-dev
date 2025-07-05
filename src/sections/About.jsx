@@ -249,7 +249,7 @@ const About = () => {
                   src={hasCopied ? "assets/tick.svg" : "assets/copy.svg"}
                   alt="copy"
                 />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white hover:text-white-700 ">
+                <p className="lg:text-2xl md:text-xl font-patuaserif text-gray_gradient text-white hover:text-white-700 ">
                   shinysirichandra@gmail.com
                 </p>
               </div>

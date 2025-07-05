@@ -61,7 +61,7 @@ const Footer = () => {
       </div>
 
       <p className="flex self-center text-white-500">
-        © {new Date().getFullYear()} Shiny Isurandi. All rights reserved.
+        © {new Date().getFullYear()} Shiny Isurandi. All Rights Reserved.
       </p>
     </footer>
   );

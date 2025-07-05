@@ -403,7 +403,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    title: "Asociate Software Engineer | Full Stack",
+    title: "Associate Software Engineer | Full Stack",
     company: "Loons Lab (Pvt) Ltd.",
     href: "https://www.linkedin.com/company/loonslab/",
     duration: "Aug/2023 - Apr/2024",
@@ -416,7 +416,7 @@ export const workExperiences = [
   },
   {
     id: 2,
-    title: "Asociate Software Engineer | Full Stack",
+    title: "Associate Software Engineer | Full Stack",
     company: "Ceyentra Technologies (Pvt) Ltd.",
     href: "https://www.linkedin.com/company/ceyentra/",
     duration: "May/2023 - Jun/2023",
@@ -426,7 +426,7 @@ export const workExperiences = [
   },
   {
     id: 3,
-    title: "Trainee Asociate Software Engineer | Full Stack",
+    title: "Trainee Associate Software Engineer | Full Stack",
     company: "Ceyentra Technologies (Pvt) Ltd.",
     href: "https://www.linkedin.com/company/ceyentra/",
     duration: "Nov/2022 - May/2023",

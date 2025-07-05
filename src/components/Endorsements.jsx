@@ -19,10 +19,10 @@ const Endorsements = () => {
       {/* Cards Main Container */}
       <div className="client-container">
         {clientReviews.map(({ id, name, position, review, img }) => (
-          <div key={id} className="client-review">
+          <div key={id} className="client-review group">
             <div>
               {/* Truncated review */}
-              <p className="text-white font-light pb-2 line-clamp-3 text-justify whitespace-pre-line space-y-2">
+              <p className="text-white-600 font-light group-hover:text-white transition ease-in-out duration-500 pb-2 line-clamp-3 text-justify whitespace-pre-line space-y-2">
                 {review}
               </p>
 

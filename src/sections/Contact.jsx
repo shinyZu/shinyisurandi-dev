@@ -27,7 +27,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Shiny",
           from_email: form.email,
-          to_email: "shinysirichandra@gmail.com",
+          reply_to: form.email,
           message: form.message,
         },
         "BDAEUZsNMOG7S-B0Q"
@@ -61,8 +61,9 @@ const Contact = () => {
         <div className="contact-container">
           <h3 className="head-text">Let's Collaborate</h3>
           <p className="text-lg text-white-600 mt-3">
-            Whether it's freelance work, a full-time opportunity, or just
-            tech talk — I’m always up for a great conversation. Feel free to reach out anytime.
+            Whether it's freelance work, a full-time opportunity, or just tech
+            talk — I’m always up for a great conversation. Feel free to reach
+            out anytime.
           </p>
 
           <form

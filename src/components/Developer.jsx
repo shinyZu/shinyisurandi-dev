@@ -13,7 +13,6 @@ const Developer = ({ section = "hero", animationName = "idle", ...props }) => {
   const group = useRef();
 
   // const { scene } = useGLTF("models/human/developer.glb");
-  // const { scene } = useGLTF("models/human/test/girl3.glb");
   const { scene } = useGLTF(
     section == "hero"
       ? "models/human/test/hero-girl.glb"
@@ -173,14 +172,10 @@ const Developer = ({ section = "hero", animationName = "idle", ...props }) => {
   );
 };
 
-// useGLTF.preload("models/human/developer.glb");
-// useGLTF.preload("models/human/test/girl3.glb");
-// useGLTF.preload("models/human/test/girl4.glb");
 useGLTF.preload([
-  "models/human/test/girl4.glb",
-  "models/human/test/girl3.glb",
+  "models/human/test/hero-girl.glb",
+  "models/human/test/dev-girl.glb",
   "models/human/test/school-girl.glb",
 ]);
-// useGLTF.preload(section == "hero" ? "models/human/test/girl3.glb" : section == "dev" ? "models/human/test/girl4.glb" : "models/human/test/school-girl.glb");
 
 export default Developer;

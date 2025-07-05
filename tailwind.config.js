@@ -5,7 +5,10 @@ export default {
     extend: {
       fontFamily: {
         generalsans: ['General Sans', 'sans-serif'],
-        // generalsans: ['Acme', 'sans-serif'],
+        // acmesans: ['Acme', 'sans-serif'],
+        patuaserif: ['Patua On', 'serif'],
+        caroossans: ['Caroos', 'sans-serif'],
+        grupposans: ['Gruppo', 'sans-serif'],
       },
       colors: {
         black: {

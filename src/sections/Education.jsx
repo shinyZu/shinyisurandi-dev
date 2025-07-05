@@ -5,7 +5,6 @@ import { calculateSizes, educationList } from "../constants";
 import { OrbitControls } from "@react-three/drei";
 import Developer from "../components/Developer.jsx";
 import CanvasLoader from "../components/CanvasLoader";
-import BusinessWomen from "../components/BusinessWomen.jsx";
 import HackerRoom from "../components/HackerRoom.jsx";
 import { PerspectiveCamera } from "@react-three/drei";
 import HeroCamera from "../components/HeroCamera.jsx";

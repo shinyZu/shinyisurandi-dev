@@ -117,7 +117,7 @@ const Hero = () => {
           wrapper="span"
           speed={50}
           repeat={Infinity}
-          className="hero_tag hero-text-gray_gradient"
+          className="hero_tag font-grupposans hero-text-gray_gradient"
           cursor={true}
         />
       </div>
