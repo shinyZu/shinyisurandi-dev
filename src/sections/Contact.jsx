@@ -51,16 +51,21 @@ const Contact = () => {
   return (
     <section id="contact" className="c-space my-20">
       <h3 className="head-text">Contact Me</h3>
-      <div className="relative min-h-screen flex flex-col items-center justify-center">
+      <div
+        className="relative flex min-h-screen flex-col items-center justify-center pt-16 pb-16"
+        // style={{ backgroundImage: "url('assets/terminal.png')" }}
+      >
         <img
           src="assets/terminal.png"
           alt="terminal-backgound"
-          className="absolute inset-0 min-h-screen"
+          className="absolute inset-0 min-h-full"
         />
 
         <div className="contact-container">
-          <h3 className="head-text">Let's Collaborate</h3>
-          <p className="text-lg text-white-600 mt-3">
+          <h3 className="text-2xl sm:text-3xl font-semibold text-gray_gradient">
+            Let's Collaborate
+          </h3>
+          <p className="text-justify text-base sm:text-base text-white-600 mt-3">
             Whether it's freelance work, a full-time opportunity, or just tech
             talk — I’m always up for a great conversation. Feel free to reach
             out anytime.
@@ -109,7 +114,7 @@ const Contact = () => {
                 required
                 rows={5}
                 className="field-input"
-                placeholder="Hi, I wanna give you a job..."
+                placeholder="Hi, I wanna hire you..."
               />
             </label>
 

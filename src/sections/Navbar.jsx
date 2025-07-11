@@ -25,7 +25,13 @@ const NavItems = ({ onItemClick }) => {
             href={href}
             target={name.includes("Resume") ? "_blank" : "_self"}
             rel="noreferrer"
-            className="nav-li_a"
+            // className="nav-li_a"
+            className={`nav-li_a ${
+              name.includes("Resume")
+                // ? "bg-green-500 text-white px-4 py-2 rounded-lg font-semibold hover:bg-green-600 transition-colors"
+                ? "hire-me-btn text-white-800"
+                : ""
+            }`}
             onClick={() => {
               if (onItemClick) onItemClick();
             }}

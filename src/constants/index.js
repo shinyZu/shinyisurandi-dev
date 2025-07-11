@@ -79,6 +79,14 @@ I wish Shiny all the best in her future endeavours, and I am certain that she wi
     Shiny has that rare mix of strong technical ability and great people skills. Whether it was solving complex problems, building systems, or brainstorming ideas as a team, she consistently brought clarity and focus to the work. She's also a great team player: thoughtful, collaborative, and always willing to help others when needed.\n
     What really stands out about Shiny is her work ethic. She’s consistent, responsible, and never backs away from a challenge. Honestly, she’s a perfect fit for any software engineering role that requires deep technical thinking, problem-solving, and strong ownership.`,
   },
+  {
+    id: 5,
+    name: "Guvindi Gunarathne",
+    position: "QA Engineer",
+    img: "assets/endorsments/endorser-5.jpeg",
+    review: `I had the pleasure of working with Shiny during our time at IIT. She consistently impressed me with her strong technical skills, quick learning ability, and problem-solving mindset.\n
+    Whether it was group projects or team discussions, she was always reliable, collaborative, and brought a positive energy to the team. Her work ethic and attitude stood out, making her a great teammate and someone you can always count on.`,
+  },
 ];
 
 export const myProjects = [
