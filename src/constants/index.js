@@ -39,22 +39,32 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
+    name: "Kasun Vithanage",
+    position: "Founder of Akrivo Ltd | Software Engineer",
+    img: "assets/endorsments/endorser-6.jfif",
+    review: `
+    I had the opportunity to work with Shiny on software engineering projects, and I was consistently impressed with her skills and professionalism.\n 
+    She has a natural talent for quickly grasping complex technical concepts and turning them into practical solutions in a very short time. Shiny consistently completed her tasks well before deadlines, delivering high-quality code and efficient solutions that added real value to the projects.\n 
+    Her smart problem-solving approach, strong technical knowledge, and ability to adapt quickly make her an outstanding software engineer. She would be an incredible asset to any engineering team.`,
+  },
+  {
+    id: 2,
     name: "Lakshmi Kanchana",
     position: "Associate Tech Lead",
     img: "assets/endorsments/endorser-1.jpeg",
     review: `
     I am delighted to write this recommendation for Shiny who recently completed her internship with our organization. Throughout her time with us, Shiny demonstrated exceptional skills and a strong work ethic, making her an invaluable asset to our team.\n
-During her internship, Shiny primarily worked on Spring Boot projects, showcasing her proficiency in this technology. She actively contributed to our team's efforts in developing our very first metaverse application, which was a significant undertaking. Her dedication and hard work were evident as she worked closely with her teammates, ensuring successful project outcomes.\n
-In addition to her involvement in Spring Boot projects, Shiny had the opportunity to work with Azure and AWS environments, further expanding her knowledge and skillset. She also gained valuable experience in utilizing Quicksight, enhancing her data visualization capabilities.\n
-What truly impressed me about Shiny was her ability to quickly grasp new concepts and apply them effectively. Despite being a junior team member, she consistently exceeded expectations and delivered exceptional results within short time periods. Her enthusiasm and eagerness to learn were evident, and she was never hesitant to take on new challenges.\n
-Furthermore, Shiny proved herself to be an exceptional team player. She actively collaborated with her colleagues, demonstrating responsibility, cooperation, and support. Her positive attitude and willingness to assist others significantly contributed to the overall success of our projects.\n
-Moreover, Shiny possesses a solid understanding of agile methodologies, which she seamlessly applied to her work. Her ability to adapt to changing project requirements and deliver under tight deadlines showcased her agility and resilience.\n
-I would like to express my sincere gratitude to Shiny for her unwavering commitment and dedication throughout her internship. Her contributions were instrumental in our team's success, and I have no doubt that she will continue to excel in her future endeavours.\n
-It has been an absolute pleasure working with Shiny, and I have no hesitation in recommending her for any future opportunities. I am confident that she will continue to thrive and make valuable contributions wherever she goes.\n
-I wish Shiny all the best in her future endeavours, and I am certain that she will achieve great success. Should you require any further information or have any questions, please do not hesitate to reach out to me.`,
+    During her internship, Shiny primarily worked on Spring Boot projects, showcasing her proficiency in this technology. She actively contributed to our team's efforts in developing our very first metaverse application, which was a significant undertaking. Her dedication and hard work were evident as she worked closely with her teammates, ensuring successful project outcomes.\n
+    In addition to her involvement in Spring Boot projects, Shiny had the opportunity to work with Azure and AWS environments, further expanding her knowledge and skillset. She also gained valuable experience in utilizing Quicksight, enhancing her data visualization capabilities.\n
+    What truly impressed me about Shiny was her ability to quickly grasp new concepts and apply them effectively. Despite being a junior team member, she consistently exceeded expectations and delivered exceptional results within short time periods. Her enthusiasm and eagerness to learn were evident, and she was never hesitant to take on new challenges.\n
+    Furthermore, Shiny proved herself to be an exceptional team player. She actively collaborated with her colleagues, demonstrating responsibility, cooperation, and support. Her positive attitude and willingness to assist others significantly contributed to the overall success of our projects.\n
+    Moreover, Shiny possesses a solid understanding of agile methodologies, which she seamlessly applied to her work. Her ability to adapt to changing project requirements and deliver under tight deadlines showcased her agility and resilience.\n
+    I would like to express my sincere gratitude to Shiny for her unwavering commitment and dedication throughout her internship. Her contributions were instrumental in our team's success, and I have no doubt that she will continue to excel in her future endeavours.\n
+    It has been an absolute pleasure working with Shiny, and I have no hesitation in recommending her for any future opportunities. I am confident that she will continue to thrive and make valuable contributions wherever she goes.\n
+    I wish Shiny all the best in her future endeavours, and I am certain that she will achieve great success. Should you require any further information or have any questions, please do not hesitate to reach out to me.`,
   },
   {
-    id: 2,
+    id: 3,
     name: "Udara Senarathne",
     position: "Associate Business Analyst",
     img: "assets/endorsments/endorser-2.jpeg",
@@ -62,7 +72,7 @@ I wish Shiny all the best in her future endeavours, and I am certain that she wi
     Her collaborative attitude and clear communication made working with her seamless. I highly recommend her for any development role.`,
   },
   {
-    id: 3,
+    id: 4,
     name: "Hansi Karunarathne",
     position: "HR Manager",
     img: "assets/endorsments/endorser-3.jpeg",
@@ -71,7 +81,7 @@ I wish Shiny all the best in her future endeavours, and I am certain that she wi
     I highly recommend Shiny to any organization looking for a talented and dedicated software engineer. They have the skills, mindset, and work ethic to make a significant impact.`,
   },
   {
-    id: 4,
+    id: 5,
     name: "Timoth Samuel",
     position: "UI/UX Engineer",
     img: "assets/endorsments/endorser-4.jpeg",
@@ -80,7 +90,7 @@ I wish Shiny all the best in her future endeavours, and I am certain that she wi
     What really stands out about Shiny is her work ethic. She’s consistent, responsible, and never backs away from a challenge. Honestly, she’s a perfect fit for any software engineering role that requires deep technical thinking, problem-solving, and strong ownership.`,
   },
   {
-    id: 5,
+    id: 6,
     name: "Guvindi Gunarathne",
     position: "QA Engineer",
     img: "assets/endorsments/endorser-5.jpeg",
