@@ -41,7 +41,7 @@ export const clientReviews = [
     id: 1,
     name: "Kasun Vithanage",
     position: "Founder of Akrivo Ltd | Software Engineer",
-    img: "assets/endorsments/endorser-6.jfif",
+    img: "assets/endorsments/endorser-6.jpeg",
     review: `
     I had the opportunity to work with Shiny on software engineering projects, and I was consistently impressed with her skills and professionalism.\n 
     She has a natural talent for quickly grasping complex technical concepts and turning them into practical solutions in a very short time. Shiny consistently completed her tasks well before deadlines, delivering high-quality code and efficient solutions that added real value to the projects.\n 
